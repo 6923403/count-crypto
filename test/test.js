@@ -1,5 +1,5 @@
 // const toWantstr = require('./index.js');
-const toWantstr = require('./index.js');
+const toWantstr = require('@vcvckw/towantstr');
 
 console.log("Hello Wrold!")
 
