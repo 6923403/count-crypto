@@ -1,10 +1,10 @@
 {
-  "name": "towantstr",
-  "version": "1.0.1",
+  "name": "@vcvckw/towantstr",
+  "version": "1.0.2",
   "description": "Convert to the text you want.",
   "main": "index.js",
   "scripts": {
-    "test.js": "node test.js"
+    "test.js": "node test/test.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/6923403/toWantstr/issues"
   },
-  "homepage": "https://github.com/6923403/toWantstr#readme"
+  "homepage": "https://github.com/6923403/toWantstr#readme",
+  "dependencies": {
+    "@vcvckw/towantstr": "^1.0.2"
+  }
 }
