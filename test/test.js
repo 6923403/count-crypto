@@ -18,3 +18,6 @@ console.log(text)
 //toMd5
 text = toWantstr.toMd5("Hello World!");
 console.log(text)
+
+text = toWantstr.encryptedStr("Hello World!")
+console.log(text);
