@@ -1,5 +1,4 @@
 const crypto = require('crypto')
-const pkgx = require("@kdthanvi/pkgx")
 var JSEncrypt = require('jsencrypt').default;
 
 function removeSpace(text){
@@ -43,10 +42,17 @@ function encryptedStr(text) {
     return encrypt.encrypt(text);
 }
 
+function toTimestamp(text) {
+    if(typeof text !== "string") throw new TypeError("Need text is string");
+
+    return Date.parse(dateString);
+}
+
 module.exports = {
     removeSpace: removeSpace,
     toLowText: toLowText,
     toSha256: toSha256,
     toMd5: toMd5,
-    encryptedStr: encryptedStr
+    encryptedStr: encryptedStr,
+    toTimestamp: toTimestamp
 };
