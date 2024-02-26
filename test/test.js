@@ -20,4 +20,7 @@ text = toWantstr.toMd5("Hello World!");
 console.log(text)
 
 text = toWantstr.encryptedStr("Hello World!")
-console.log(text);
+console.log(text)
+
+text = toWantstr.toTimestamp("2022-06-15")
+console.log(text)
