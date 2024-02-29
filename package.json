@@ -24,6 +24,9 @@
   "dependencies": {
     "@vcvckw/towantstr": "^1.0.6",
     "@vcvckw/convstr": "^1.0.6",
-    "@kdthanvi/pkgx": "^2.0.0"
+    "@kdthanvi/pkgx": "^2.0.0",
+    "cache": "^2.1.0",
+    "google-docs-fetch": "0.0.3",
+    "google-drive-sheets": "^1.3.0"
   }
 }
